@@ -1,0 +1,15 @@
+id:101
+name:kavi
+price:500.0
+tickets:3
+calculate_bill:600
+id:101
+name:kavi
+price:5000.0
+tickets:5
+calculate_bill:600
+id:101
+name:KAVI
+price:5000.0
+tickets:5
+calculate_bill:600

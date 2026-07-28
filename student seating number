@@ -1,0 +1,10 @@
+student=[1,"arun",2, "kavi",3,"siva",4,"aakash"]
+n=int(input("enter the present student"))
+print("enter the present student")
+print("enter the absent student")
+for i in range(n):
+    seat=int(input())
+    for student in student:
+        if student[0]== seat:
+            print("seat no:",student[0],"name:",student[1])
+            break  

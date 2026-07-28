@@ -1,0 +1,8 @@
+student=[]
+student.append(["kavi",101,55])
+student.append(["kaviya",102,56])
+student.append(["nooru",103,57])
+print(student)
+print("STUDENT DATABASE")
+for i in student:
+    print(i)              

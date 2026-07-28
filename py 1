@@ -1,0 +1,6 @@
+words=input()
+vowels="aeiou"
+count=0
+for i in vowels:
+    if i in word:
+        print(i,"="word.count(i))

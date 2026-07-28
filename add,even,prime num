@@ -1,0 +1,29 @@
+even=0
+odd=0
+primeno=0
+notprimeno=0 
+count=0
+for i in range(100,201):
+    if i%2==0:
+        count+=1
+        print(even)
+        print(i,end="")
+for i in range(100,201):
+    if i%2==0:
+        count+=1
+        print(odd)
+        print(i,end="")
+for i in range(100,201):
+    if i%2==0:
+        count+=1
+        print(primeno)
+        print(i,end="")
+for i in range(100,201):
+    if i%2==0:
+        count+=1
+        print(not primeno)
+        print(i,end="")
+print("even",even)
+print("odd",odd)
+print("primeno",primeno)
+print("not primeno",not primeno) 

@@ -1,0 +1,4 @@
+p1=("ramya","ranuga","kavi","priya","ranuga","gayathri")
+print(p1.count("ranuga"))
+print(p1[2:6])
+print(p1[::-1])

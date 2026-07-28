@@ -1,0 +1,29 @@
+print("card sh0pping")
+items=[]
+while True:
+    print("add tiems")
+    print("view items")
+    print("total bill")
+    print("exit")
+    choice=input("enter the choice:")
+    if choice=="1":
+        items=input("enter item name:")
+        price=int(input("enter items price:"))
+        items.append((item,price))
+        print(item,"added to card")
+    elif choice =="2":
+        print("Items in cart:")
+        for item,price in items:
+            price(item,"-",price)
+    elif choice =="2":
+        total = 0
+        for item,price in items:
+            total += price
+        print("Total Bill:",total)
+    elif choice == "4":
+        print("exit")
+        break
+    else:
+        print("Invalid chioce")
+
+

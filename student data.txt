@@ -1,0 +1,8 @@
+name: kavi
+roll_no: 1234567890
+dept: CSBS
+marks: 50
+name:kavi
+roll_no:2006
+dept:csbs
+marks:50

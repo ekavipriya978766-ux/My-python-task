@@ -1,0 +1,5 @@
+p1={"apple","banana","orange"}
+p1.add("watermeloan")
+print(p1)
+p1.discard("apple")
+print(p1)

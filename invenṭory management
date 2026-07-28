@@ -1,0 +1,35 @@
+
+inventory = [
+    ["Laptop", 15, 50000],
+    ["Mouse", 8, 500],
+    ["Keyboard", 12, 1000]
+]
+inventory.append(["Monitor", 5, 12000])
+product = input("Enter product name to update quantity: ")
+new_quantity = int(input("Enter new quantity: "))
+for item in inventory:
+    if item[0].lower() == product.lower():
+        item[1] = new_quantity
+        print("Quantity updated.")
+        break
+else:
+    print("Product not found.")
+product = input("Enter product name to remove: ")
+for item in inventory:
+    if item[0].lower() == product.lower():
+        inventory.remove(item)
+        print("Product removed.")
+        break
+else:
+    print("Product not found.")
+product = input("Enter product name to search: ")
+for item in inventory:
+    if item[0].lower() == product.lower():
+        print("Product Found:", item)
+        break
+else:
+    print("Product not found.")
+print("\nProducts with quantity less than 10:")
+for item in inventory:
+    if item[1] < 10:
+        print(item)

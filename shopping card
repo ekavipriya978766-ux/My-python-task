@@ -1,0 +1,18 @@
+items=[]
+print("add items card")
+print("view items card")
+print("calculate total bill card")
+print("remove items")
+print("exit")
+card=int(input("enter your card"))
+if card==1:
+    print("add items card")
+elif card==2:
+    items=int(input("enter your view items"))
+    print("view items card")
+elif card==3:
+    print("calculate total bill")
+elif card==4:
+    print("exit")
+else:
+    print("thank you")
